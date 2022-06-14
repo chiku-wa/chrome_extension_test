@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Railsチュートリアルの画像を非表示",
+  "description": "Railsチュートリアル(https://railstutorial.jp/)のTOP画面の左上の画像を非表示にする拡張機能。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://railstutorial.jp/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
